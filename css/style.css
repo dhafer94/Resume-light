@@ -53,6 +53,9 @@ body {
   width: 400px;
   color: #595959;
 }
+.about-me-contacts {
+  font-weight: 600;
+}
 
 /* my projects section */
 .my-projects-section {
