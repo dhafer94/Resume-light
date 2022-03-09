@@ -188,6 +188,19 @@ body {
 
   opacity: 0.5;
 }
+.contacts-section-social-div {
+  display: flex;
+  flex-direction: row;
+  padding-left: 30px;
+  margin: 20px 0;
+  width: 200px;
+}
+.contacts-section-social-icon {
+  background-color: #fff;
+  border-radius: 50%;
+  width: 40px;
+  margin: 0 10px;
+}
 /* skills section */
 .skills-list {
   padding: 0 0 0 17px;
