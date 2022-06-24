@@ -173,13 +173,16 @@ body {
   margin-bottom: 10px;
 }
 /* contacts section */
+.contact-container {
+  position: relative;
+}
 .contacts-section-type {
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
   line-height: 24px;
   color: #ffffff;
-  margin-right: 7px;
+  /* margin-right: 7px; */
 }
 .contacts-section-link {
   font-style: normal;
@@ -187,7 +190,8 @@ body {
   font-size: 14px;
   line-height: 24px;
   color: #ffffff;
-
+  position: absolute;
+  left: 90px;
   opacity: 0.5;
 }
 .contacts-section-social-div {
