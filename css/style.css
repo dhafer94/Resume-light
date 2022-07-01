@@ -147,6 +147,26 @@ body {
   line-height: 17px;
   color: #000000;
 }
+
+/* my training section */
+
+.my-training-section {
+  margin-top: 45px;
+}
+.my-training-table {
+  border-spacing: 10px 20px;
+}
+.my-training-table-row {
+  font-weight: 700;
+}
+.my-training-instructor {
+  color: #fb6d3a;
+}
+
+.my-training-platform {
+  color: #a8a8a8;
+}
+/* sidebar */
 .sidebar-section {
   background-color: #1e2939;
   width: 370px;
@@ -164,6 +184,7 @@ body {
 .sidebar-block {
   margin: 50px 0 0 40px;
 }
+
 .sidebar-title {
   color: #fff;
   font-style: normal;
@@ -174,7 +195,11 @@ body {
 }
 /* contacts section */
 .contact-container {
-  position: relative;
+  border-spacing: 10px 0;
+}
+
+.contact-cell {
+  text-align: center;
 }
 .contacts-section-type {
   font-style: normal;
@@ -182,7 +207,7 @@ body {
   font-size: 14px;
   line-height: 24px;
   color: #ffffff;
-  /* margin-right: 7px; */
+  text-transform: uppercase;
 }
 .contacts-section-link {
   font-style: normal;
@@ -190,8 +215,6 @@ body {
   font-size: 14px;
   line-height: 24px;
   color: #ffffff;
-  position: absolute;
-  left: 90px;
   opacity: 0.5;
 }
 .contacts-section-social-div {
@@ -200,6 +223,7 @@ body {
   padding-left: 30px;
   margin: 20px 0;
   width: 200px;
+  margin-top: 50px;
 }
 .contacts-section-social-icon {
   background-color: #fff;
